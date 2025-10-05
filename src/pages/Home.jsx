@@ -13,12 +13,14 @@ function Home() {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    alert("Searching for: " + searchQuery);
-    setSearchQuery("");
+    alert("Searching for: " + searchQuery);  // shows what was typed in the search bar.
+    setSearchQuery("");  // clears the input box after searching.
   };
 
   return (
     <div className="home">
+
+      {/* search movies */}
       <form onSubmit={handleSearch} className="search-form">
         <input
           type="text"
@@ -32,6 +34,7 @@ function Home() {
         </button>
       </form>
 
+      {/* movies list */}
       <div className="movies-grid">
         {movies.map((movie) => 
         // movie.title.toLowerCase().startsWith(searchQuery) &&
@@ -42,4 +45,5 @@ function Home() {
     </div>
   );
 }
+
 export default Home;

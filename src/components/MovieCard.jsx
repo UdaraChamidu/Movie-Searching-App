@@ -9,7 +9,7 @@ function MovieCard({movie}) {
             <div className="movie-poster">
                 <img src={movie.url} alt={movie.title} />
                 <div className="movie-overlay">
-                    <button className="favourite-btn" onClick={onFavouriteClick}>View Details
+                    <button className="favourite-btn" onClick={onFavouriteClick}>
                         ❤️
                     </button>
                 </div>
@@ -19,10 +19,6 @@ function MovieCard({movie}) {
                 <h3>{movie.title}</h3>
                 <p>{movie.year}</p>
             </div>
-
-
-
-            
         </div>
      );
 }
