@@ -4,8 +4,8 @@
 - conditional rendering: 
 - state: once it updated, the component will change and re render itself to show the new state.
 - hook:
-- 
-
+- useEffect: allows us to add side effects to our functions or to your components and define when they should run.
+- context: will allow state to be globally awailable to anything that's within the provided context.
 
 
 # React + Vite
