@@ -6,7 +6,8 @@
 - hook:
 - useEffect: allows us to add side effects to our functions or to your components and define when they should run.
 - context: will allow state to be globally awailable to anything that's within the provided context.
-
+- children: a reserver prop when we write a component and children is anything that's inside the component that we entered.
+-- example: browserRouter -> App
 
 # React + Vite
 
@@ -24,3 +25,4 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
