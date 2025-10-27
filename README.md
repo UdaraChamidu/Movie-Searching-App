@@ -26,7 +26,7 @@ You can view popular movies, search by movie name and add/remove favorites.
 | State Management | React Context API (for favorites) |
 | API | The Movie Database (TMDb) API |
 | Routing | react-router-dom |
-| Styling | CSS  |
+| Styling | CSS  | 
 | Deployment | Vercel |
 
 ---
